@@ -12,7 +12,7 @@ const NavBar = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
 
-        >Portfolio</motion.span>
+        >My Portfolio</motion.span>
         <div className="social">
           <motion.a href="https://www.instagram.com/deni__00_1/" target='blank'
             whileHover={{ y: -3, scaleX: 1.1, scaleY: 1.1, transition: { duration: 0.3 } }}>
