@@ -74,7 +74,7 @@ const Single = ({ item }) => {
 						<h2>{item.title}</h2>
 						<p>{item.desc}</p>
 						<a href={item.link} target="_blank"  >
-							<button>See Project</button>
+							
 						</a>
 						
 					</motion.div>
@@ -129,6 +129,7 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
 
 
 
