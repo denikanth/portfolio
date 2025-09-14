@@ -73,7 +73,7 @@ const Single = ({ item }) => {
 					<motion.div className="textContainer" style={{ y }}>
 						<h2>{item.title}</h2>
 						<p>{item.desc}</p>
-						<a href={item.link}  >
+						<a href={item.link} target="_blank"  >
 							<button>See Project</button>
 						</a>
 						
@@ -129,5 +129,6 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
 
 
